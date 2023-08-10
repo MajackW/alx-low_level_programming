@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
+ * main entry point
  *Description: this program prints a message
- * main function returns 0
  */
 int main(void)
 {
