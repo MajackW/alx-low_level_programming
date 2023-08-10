@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-	/*main function returns 0*/
+	/*
+	 *Description: this program prints a message
+	 * main function returns 0
+	 */
 int main(void)
 {
 	/*prints characters*/
