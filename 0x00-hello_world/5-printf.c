@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /*
- * main entry point
- *Description: this program prints a message
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
