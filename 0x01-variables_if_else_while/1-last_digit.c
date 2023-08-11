@@ -10,7 +10,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
-	int r = n%10;
+	int r
+	r = n%10;
 
 	if (r == 0)
 		printf("the last digit of %d is %d and is 0", n,r);
