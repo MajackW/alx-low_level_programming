@@ -7,11 +7,6 @@
 int main(void)
 {
 	int i;
-	char a;
-	char b;
-
-	a = ',';
-	b = ' ';
 
 	for (i = 0; i < 10;)
 	{
@@ -19,8 +14,8 @@ int main(void)
 
 		if (i != 9)
 		{
-			putchar(a);
-			putchar(b);
+			putchar(',');
+			putchar(' ');
 		}
 		i++;
 	}
