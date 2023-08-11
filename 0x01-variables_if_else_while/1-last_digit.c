@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * Description: main - prints alphabets
+ * main - Entry point
  *
- * Return 0(Success)
+ * Return: Always 0 (Success)
  */
 int main(void)/* main function*/
 {
