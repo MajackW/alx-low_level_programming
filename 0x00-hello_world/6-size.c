@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-	/**
-	 * main - Entry point of the program
-
-	 * Description: main prints sizes of data types
-	 *
-	 * Return: always 0 (Success)
-	 */
+/**
+* main - Entry point of the program
+*
+* Description: main prints sizes of data types
+*
+* Return: always 0 (Success)
+*/
 int main(void)
 {
 	/* declares data types */
