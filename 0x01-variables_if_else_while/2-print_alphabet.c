@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-/* prints alphabets and new line*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char a = 'a';
