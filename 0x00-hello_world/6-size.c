@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-	/*
-	 * main - entry point of the program
+	/**
+	 * main - Entry point of the program
 
 	 * Description: main prints sizes of data types
 	 *
