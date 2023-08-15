@@ -1,17 +1,22 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _putchar - Entry point
+ * main - Entry point
  *
- * Return: void (no return value)
+ * Return: Always 0 (success)
  */
 
-void _putchar(void)
+int main(void)
 {
-	char a;
-
-	a = '_putchar';
-
-	putchar(a);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
+
+	return (0);
 }
