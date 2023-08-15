@@ -3,6 +3,8 @@
 /**
  * _islower - Entry point
  *
+ * c - character to test
+ *
  * Return: returns int value
  */
 int _islower(int c)
