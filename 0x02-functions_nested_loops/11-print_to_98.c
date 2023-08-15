@@ -10,7 +10,7 @@ void print_to_98(int n)
  * n - number
  */
 {
-	if (n < 0)
+	if (n <= 0)
 	{
 		printf("%d, ", n);
 		n++;
