@@ -13,4 +13,6 @@ int print_sign(int n);
 
 int print_last_digit(int);
 
+void _putchar(char *name);
+
 #endif
