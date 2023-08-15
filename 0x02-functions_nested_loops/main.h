@@ -17,4 +17,8 @@ void _putchar(int c);
 
 int _abs(int);
 
+void print_to_98(int n);
+
+int add(int, int);
+
 #endif
