@@ -10,7 +10,7 @@ void print_to_98(int n)
  * n - number
  */
 {
-	if (n <= 0)
+	if (n < 98)
 	{
 		printf("%d, ", n);
 		n++;
@@ -34,16 +34,17 @@ void print_to_98(int n)
                 n--;
                 while (n < 97)
                 {
-                        if (n != 98)
-                        {
-                                printf("%d, ", n);
-                        }
-                        else if (n == 98)
-                        {
-                                printf("%d", n);
-                        }
-                        n--;
-                }
+			if (n != 98)
+			{
+				printf("%d, ", n);
+			}
+			
+			else if (n == 98)
+			{
+				printf("%d", n);
+			}
+			n--;
+		}
 		putchar('\n');
 	}
 	else if (n == 98)
