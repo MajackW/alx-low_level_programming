@@ -15,4 +15,6 @@ int print_last_digit(int);
 
 void _putchar(int c);
 
+int _abs(int);
+
 #endif

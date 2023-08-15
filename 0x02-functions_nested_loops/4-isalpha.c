@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _isalpha - Entry point
- * 
+ *
  * c - character
  *
  * Return: int
