@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * print_alphabet_x10 - Entry point
+ *
+ * Return: void (no return value)
+ */
 void print_alphabet_x10(void)
 {
 	char a;
-	int b;
+	char b;
 
-	a = 'a';
-	b = 0;
+	a = 0;
 
-	while (b < 10)
+	while (a < 10)
 	{
-		while (a <= 'z')
+		b = 'a';
+		while (b <= 'z')
 		{
-			putchar(a);
-			a++;
+			putchar(b);
+			b++;
 		}
-
 		putchar('\n');
-		b++;
+		a++;
 	}
 }
