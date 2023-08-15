@@ -1,18 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * _putchar - Entry point
  *
- * Return: Always 0 (success)
+ * Return: void (no return value)
  */
-int main(void)
-{
-	_putchar("majack otieno");
 
-	return(0);
-}
-
-void _putchar(char* name)
+void _putchar(char *name)
 {
-	printf("%s\n", name);
+	printf("%d\n", *name);
 }
