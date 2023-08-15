@@ -6,7 +6,12 @@
  * Return: void (no return value)
  */
 
-void _putchar(char *name)
+void _putchar(void)
 {
-	printf("%d\n", *name);
+	char a;
+
+	a = '_putchar';
+
+	putchar(a);
+	putchar('\n');
 }
