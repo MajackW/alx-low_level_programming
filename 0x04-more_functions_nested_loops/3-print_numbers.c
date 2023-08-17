@@ -3,7 +3,7 @@
 
 /**
  * print_numbers - Entry point
- *
+ *@c: number
  * return: Always 0 (sucess)
  */
 
