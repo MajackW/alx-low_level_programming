@@ -6,16 +6,23 @@
  * @size: size of triangle
  * Return; void
  */
-
+int main(void)
+{
+	print_triangle(10);
+	print_triangle(0);
+	return(0);
+}
 void print_triangle(int size)
 {
 	int a;
 	int b;
 
-	a = 0;
 	if (size <= 0)
+	{
 		putchar('\n');
 		return;
+	}
+	a = 0;
 	while (a < size)
 	{
 		b = 0;
