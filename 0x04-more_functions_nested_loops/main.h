@@ -15,6 +15,8 @@ void print_number(int n);
 
 void _putchar(void);
 
+void print_triangle(int size);
+
 int _isdigit(int c);
 
 int _isupper(int c);
