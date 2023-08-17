@@ -3,7 +3,7 @@
 
 /**
  * print_numbers - Entry point
- *@c: number
+ *
  * return: Always 0 (sucess)
  */
 
@@ -15,7 +15,7 @@ void print_numbers(void)
 
 	while (c < 10)
 	{
-		putchar(c);
+		putchar(c + '0');
 		c++;
 	}
 
