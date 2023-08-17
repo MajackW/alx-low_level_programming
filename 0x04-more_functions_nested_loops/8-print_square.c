@@ -9,11 +9,6 @@
  * Return: void
  */
 
-int main(void)
-{
-	print_square(-5);
-	return (0);
-}
 void print_square(int size)
 {
 	int a;
