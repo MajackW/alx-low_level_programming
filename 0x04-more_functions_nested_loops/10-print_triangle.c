@@ -20,6 +20,12 @@ void print_triangle(int size)
 	a = 0;
 	while (a < size)
 	{
+		b = size - a -1;
+		while (b > 0)
+		{
+			putchar(' ');
+			b--;
+		}
 		b = 0;
 		while (b <= a)
 		{
