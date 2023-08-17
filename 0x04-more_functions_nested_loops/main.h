@@ -11,6 +11,8 @@ void print_line(int n);
 
 void print_square(int size);
 
+void print_number(int n);
+
 void _putchar(void);
 
 int _isdigit(int c);
