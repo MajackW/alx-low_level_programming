@@ -9,6 +9,11 @@
  * Return: void
  */
 
+int main(void)
+{
+	print_square(-5);
+	return (0);
+}
 void print_square(int size)
 {
 	int a;
@@ -19,6 +24,7 @@ void print_square(int size)
 	{
 		if (size <= 0)
 		{
+			putchar('\n');
 			break;
 		}
 		b = 1;
