@@ -6,12 +6,7 @@
  * @size: size of triangle
  * Return; void
  */
-int main(void)
-{
-	print_triangle(10);
-	print_triangle(0);
-	return(0);
-}
+
 void print_triangle(int size)
 {
 	int a;
