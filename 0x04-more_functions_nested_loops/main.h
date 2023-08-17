@@ -17,6 +17,8 @@ void _putchar(void);
 
 void print_triangle(int size);
 
+void print_diagonal(int n);
+
 int _isdigit(int c);
 
 int _isupper(int c);
