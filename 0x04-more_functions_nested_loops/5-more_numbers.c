@@ -19,11 +19,14 @@ void more_numbers(void)
 		b = 0;
 		while (b <= 14)
 		{
-			putchar(b + '0');
+			if (b > 9)
+			{
+				putchar((b / 10) + '0');
+			}
+			putchar((b % 10) + '0');
 			b++;
 		}
 		putchar('\n');
 		a++;
 	}
-	putchar('\n');
 }
