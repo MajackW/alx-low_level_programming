@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - Entry point
  *
- * @*n: address of n
+ * @n: address of n
  *
  * Return: void
  */
