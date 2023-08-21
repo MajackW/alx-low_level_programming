@@ -10,18 +10,23 @@
 
 char *gen_ran_pas()
 {
-	char *pass; = (char *)malloc((PASS_LEN + 1) * sizeof(char));
+	int i;
+	int index;
+	char *pass;
+	char charset;
+
+	pass = (char *)malloc((PASS_LEN + 1) * sizeof(char));
 	if (pass == NULL)
 	{
 		perror("memory allocation failed");
 		exit(1);
 	}
-	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	const charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 	srand(time(NULL));
-	for (int i = 0; i < PAS_LEN; i++)
+	for (i = 0; i < PAS_LEN; i++)
 	{
-		int index = rand() % (sizeof(charset) - 1);
+		index = rand() % (sizeof(charset) - 1);
 		pass[i] = charset[index];
 	}
 	pass[PAS_LEN] = '\0';
@@ -35,7 +40,8 @@ char *gen_ran_pas()
  */
 int main(void)
 {
-	char *pass = gen_ran_pas();
+	char *pass;
+	pass = gen_ran_pas();
 	printf("%s\n", pass);
 
 	free(pass);
