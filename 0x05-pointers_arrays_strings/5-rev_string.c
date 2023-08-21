@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_rev - prints in reverse
+ *rev_string - prints in reverse
  * @s: string to print
  * Return: void
  */
@@ -20,10 +20,10 @@ void rev_string(char *s)
 		p++;
 	}
 
-	for (i = length - 1; i >= 0; i--)
+	for (i = 0; i < length/2; i--)
 	{
-		putchar(s[i]);
+		temp = s[i];
+		s[i] = s[length - 1 - i];
+		s[length - 1 - i];
 	}
-
-	putchar('\n');
 }
