@@ -20,7 +20,15 @@ void puts_half(char *str)
 		length++;
 		p++;
 	}
-	h_len = length / 2;
+	if (length % 2 == 0)
+	{
+		h_len = length / 2;
+	}
+
+	else if (length % 2 != 0)
+	{
+		h_len = (length - 1) / 2;
+	}
 	for (i = h_len + 1; i <= length - 1; i++)
 	{
 		putchar(str[i]);
