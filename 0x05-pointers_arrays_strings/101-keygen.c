@@ -13,9 +13,9 @@ char *gen_ran_pas()
 	int i;
 	int index;
 	char *pass;
-	char charset;
+	char charset[];
 
-	pass = (char *)malloc((PASS_LEN + 1) * sizeof(char));
+	pass = (char *)malloc((PAS_LEN + 1) * sizeof(char));
 	if (pass == NULL)
 	{
 		perror("memory allocation failed");
