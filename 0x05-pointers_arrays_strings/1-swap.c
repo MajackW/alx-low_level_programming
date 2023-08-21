@@ -6,7 +6,7 @@
  * @b: second integer
  * Return: void
  */
-void_swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int temp;
 
