@@ -23,15 +23,19 @@ void puts_half(char *str)
 	if (length % 2 == 0)
 	{
 		h_len = length / 2;
+		for (i = h_len; i <= length - 1; i++)
+		{
+			putchar(str[i]);
+		}
 	}
 
 	else if (length % 2 != 0)
 	{
 		h_len = (length - 1) / 2;
-	}
-	for (i = h_len + 1; i <= length - 1; i++)
-	{
-		putchar(str[i]);
+		for (i = h_len + 1; i <= length - 1; i++)
+		{
+			putchar(str[i]);
+		}
 	}
 	putchar('\n');
 }
