@@ -29,11 +29,11 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (cs1 > cs2)
 	{
-		return (15);
+		return (1);
 	}
 	else if (cs2 > cs1)
 	{
-		return (-15);
+		return (-1);
 	}
 	return (0);
 }
