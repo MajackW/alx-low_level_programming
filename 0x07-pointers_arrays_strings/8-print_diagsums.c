@@ -12,13 +12,13 @@ void print_diagsums(int *a, int size)
 {
 	int i;
 	int sum;
-	int num[size];
+	int num[10];
 
 	sum = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		num[i] = a[i][i];
+		num[i] = *(a + i * size + i);
 	}
 	for (i = 0; i < size; i++)
 	{
