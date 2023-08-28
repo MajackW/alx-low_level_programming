@@ -13,8 +13,10 @@ void print_diagsums(int *a, int size)
 	int i;
 	int sum;
 	int num[10];
+	int ops;
 
 	sum = 0;
+	ops = 0;
 
 	for (i = 0; i < size; i++)
 	{
@@ -24,5 +26,10 @@ void print_diagsums(int *a, int size)
 	{
 		sum += num[i];
 	}
-	printf("%d\n", sum);
+	for (i = 0; i < size; i++)
+	{
+		ops += *(a = i * size + (size - 1 - i));
+	}
+	printf("%d, ", sum);
+	printf("%d\n", ops);
 }
