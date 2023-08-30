@@ -13,6 +13,8 @@ int is_prime_number(int n);
 
 int is_prime_number_helper(int n, int y);
 
+int _sqrt_recursion(int n);
+
 int factorial(int n);
 
 #endif
