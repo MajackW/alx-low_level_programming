@@ -20,10 +20,12 @@ int is_prime_number_helper(int n, int y)
 {
 	int res;
 
-	if (y * y > n)
-		return (1);
+	if (n < 0)
+		return (0);
 	if (n == 1)
 		return (0);
+	if (y * y > n)
+		return (1);
 	if (n % y == 0)
 		return (0);
 	res = is_prime_number_helper(n, y + 1);
