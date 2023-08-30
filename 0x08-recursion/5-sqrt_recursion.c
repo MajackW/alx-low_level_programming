@@ -4,13 +4,14 @@
 /**
  * _sqrt_recursion - finds the square root
  * @n: number to find squareroot
+ * @y: number
  * Return: squareroot of n
  */
 int helper(int n, int y);
 int _sqrt_recursion(int n)
 {
 	int res;
-	
+
 	res = helper(n, 1);
 
 	return (res);
