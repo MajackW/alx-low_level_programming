@@ -6,6 +6,7 @@
  * @n: number to find squareroot
  * Return: squareroot of n
  */
+int helper(int n, int y);
 int _sqrt_recursion(int n)
 {
 	int res;
