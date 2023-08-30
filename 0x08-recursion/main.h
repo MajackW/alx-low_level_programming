@@ -15,6 +15,8 @@ int is_prime_number_helper(int n, int y);
 
 int _sqrt_recursion(int n);
 
+int helper(int n, int y);
+
 int factorial(int n);
 
 #endif
