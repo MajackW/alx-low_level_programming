@@ -8,7 +8,7 @@
  * is_prime_number_helper - is prime number
  * @y: starting point
  */
-
+int is_prime_number_helper(int n, int y);
 int is_prime_number(int n)
 {
 	int res;
