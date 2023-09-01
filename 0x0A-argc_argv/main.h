@@ -3,4 +3,6 @@
 
 void _putchar(char *s);
 
+int atoi(const char *s);
+
 #endif 
