@@ -5,6 +5,7 @@
  * main - entry point
  * @argc: number
  * @argv: number
+ * @n: number
  * Return: int success
  */
 int change(int n);
