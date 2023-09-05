@@ -30,3 +30,4 @@ char *str_concat(char *s1, char *s2)
 	strcat(str, s2);
 
 	return (str);
+}
