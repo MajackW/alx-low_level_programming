@@ -22,9 +22,8 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	len = strlen(s1);
 	len1 = strlen(s2);
-	len += len1;
 
-	str = (char *)malloc((sizeof(char) * len) + 1);
+	str = (char *)malloc(len + len1 + 1);
 	if (str == NULL)
 		return (NULL);
 	strcpy(str, s1);
