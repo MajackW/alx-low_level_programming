@@ -2,7 +2,7 @@
 #define DOG_H
 #include <stdio.h>
 /**
- * dog - Typedef of struct dog
+ * struct dog - Typedef of struct dog
  *
  */
 
