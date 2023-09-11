@@ -3,7 +3,9 @@
 #include <stdio.h>
 /**
  * struct dog - Typedef of struct dog
- *
+ * @name - name of dog
+ * @woner - owner
+ * @age - age
  */
 
 struct dog
