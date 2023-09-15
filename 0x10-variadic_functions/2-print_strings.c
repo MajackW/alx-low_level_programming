@@ -2,18 +2,23 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 
-
+/**
+ * print_strings - entry point
+ * @separator: separator
+ * @n: number
+ * Return: void
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *s;
 	va_list in;
 	unsigned int i;
 
-	va_start (in, n);
+	va_start(in, n);
 
 	for (i = 0; i < n; i++)
 	{
-		s = va_arg (in, char *);
+		s = va_arg(in, char *);
 		if (s == NULL)
 		{
 			s = "(nil)";
