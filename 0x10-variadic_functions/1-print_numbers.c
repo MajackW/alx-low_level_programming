@@ -5,7 +5,7 @@
 /**
  * print_numbers - entry point
  * @separator: pointer
- * @n number
+ * @n: number
  * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
