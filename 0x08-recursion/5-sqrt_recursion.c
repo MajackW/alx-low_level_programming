@@ -17,6 +17,12 @@ int _sqrt_recursion(int n)
 	return (a);
 }
 
+/**
+ * help - helper function
+ * @x: parameter
+ * @y: parameter
+ * Return: integer result
+ */
 int help(int x, int y)
 {
 	if (y * y == x)
