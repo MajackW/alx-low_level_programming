@@ -7,7 +7,6 @@
  * Return: integer the result
  */
 
-int help(int x, int y);
 int _sqrt_recursion(int n)
 {
 	int a;
