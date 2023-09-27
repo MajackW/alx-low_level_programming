@@ -24,6 +24,8 @@ int is_prime_number(int n)
 
 int help(int x, int y)
 {
+	if (x == 1 || x < 0)
+		return (0);
 	if (x % y == 0)
 		return (0);
 	if (x % y != 0 && y * y < x)
