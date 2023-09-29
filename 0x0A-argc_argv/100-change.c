@@ -9,20 +9,18 @@
  */
 int main(int argc, char *argv[])
 {
+	int a;
+	int b;
+	int i;
+	int num[] = {1, 2, 5, 10, 25};
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	int a;
-	int b;
-	int i;
-	int num[] = {1,2,5,10,25};
-
 	a = 0;
 	b = atoi(argv[1]);
-
 	while (b != 0)
 	{
 		for (i = 0; i < 5; i++)
