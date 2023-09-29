@@ -26,7 +26,7 @@ int _strlen(char *s)
  */
 void _puts(char *s)
 {
-	return;
+	{};
 }
 /**
  * _strcpy - strcpy
