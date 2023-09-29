@@ -20,11 +20,13 @@ int main(int argc, char *argv[])
 	}
 
 	b = atoi(argv[1]);
+
 	if (b < 0)
 	{
 		printf("%d\n", 0);
 		exit(0);
 	}
+
 	a = change(b);
 	printf("%d\n", a);
 	return (0);
