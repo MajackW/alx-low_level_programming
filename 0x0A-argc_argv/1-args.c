@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: prints argc
+ * main - prints argc
  * @argc: numbet of args
  * @argv: arguments
  * Return: 0 success
