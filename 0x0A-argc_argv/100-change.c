@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - finds change
@@ -7,7 +8,6 @@
  * @argv: arguments
  * Return: 0 success
  */
-int change(int b);
 int main(int argc, char *argv[])
 {
 	int a;
