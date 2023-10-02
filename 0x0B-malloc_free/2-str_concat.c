@@ -13,7 +13,6 @@ char *str_concat(char *s1, char *s2)
 	int l1;
 	int l2;
 	int t;
-	int i;
 	char *con;
 
 	if (s1 == NULL)
@@ -39,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 int cnt(char *s)
 {
 	int n;
-
+7
 	n = 0;
 	while (*s != '\0')
 	{
@@ -60,11 +59,9 @@ char *conc(char *s1, char *s2, char *con)
 	int i;
 	int l1;
 	int l2;
-	int t;
 
 	l1 = cnt(s1);
 	l2 = cnt(s2);
-	t = l1 + l2;
 
 	for (i = 0; i < l1; i++)
 	{
