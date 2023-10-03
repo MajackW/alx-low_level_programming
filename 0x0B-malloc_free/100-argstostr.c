@@ -51,7 +51,7 @@ int count(int ac, char **av)
 	char *s;
 
 	n = 0;
-	for(i = 0; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		s = av[i];
 		while (*s != '\0')
