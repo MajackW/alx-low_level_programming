@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include <stdlib.b>
+#include <stdlib.h>
 #include "main.h"
 
 /**
