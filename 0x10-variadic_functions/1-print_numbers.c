@@ -14,7 +14,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list ap;
 
 	if (n == 0)
+	{
+		putchar('\n');
 		exit(98);
+	}
 	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
