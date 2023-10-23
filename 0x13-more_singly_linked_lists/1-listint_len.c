@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * listint_len - returns the length of a list
+ * listint_len - finds the number of nodes
  * @h: head of the list
  * Return: number of nodes
  */
