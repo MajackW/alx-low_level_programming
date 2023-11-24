@@ -4,4 +4,5 @@
 unsigned int binary_to_uint(const char *b);
 unsigned int convert(const char *s, int n);
 unsigned int pw(int a, int b);
+void print_binary(unsigned long int n);
 #endif
