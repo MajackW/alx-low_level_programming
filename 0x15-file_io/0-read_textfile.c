@@ -23,16 +23,17 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	c = fgetc(fh);
 	i = 0;
+	n = 0;
 	while (c != EOF && (i < letters))
 	{
 		putchar(c);
 		i++;
+		n++;
 		c = fgetc(fh);
 	}
 	fclose(fh);
 	if (i != letters)
 		return (0);
-	n = count(filename);
 	return (n);
 }
 /**
