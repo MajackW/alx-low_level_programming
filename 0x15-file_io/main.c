@@ -9,9 +9,10 @@
  *     */
 int main(int ac, char **av)
 {
-	ssize_t n;
+	int n;
+	char *s = "hello there";
 
-	n = read_textfile(av[1], 114);
-	printf("\nread: %zd\n", n);
+	n = create_file(av[1], s);
+	printf("\nread: %d\n", n);
 	return 0;
 }
