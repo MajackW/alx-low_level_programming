@@ -17,7 +17,6 @@ int main(int ac, char *av[])
 	int fd2;
 	char buffer[1024];
 	ssize_t n;
-	ssize_t p;
 
 	if (ac != 3)
 	{
@@ -30,7 +29,7 @@ int main(int ac, char *av[])
 		dprintf(3, "Error: Can't read from file %s\n", av[1]);
 		exit(98);
 	}
-	fd2 = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, 0662);
+	fd2 = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, 06624);
 	if (fd2 == -1)
 	{
 		dprintf(3, "Error: can't write to %s\n", av[2]);
@@ -44,7 +43,7 @@ int main(int ac, char *av[])
 	}
 	while (n != 0)
 	{
-		p = write(fd2, buffer, n);
+		write(fd2, buffer, n);
 		n = read(fd, buffer, 1024);
 	}
 	close(fd);
