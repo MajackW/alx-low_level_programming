@@ -10,9 +10,9 @@
 int main(int ac, char **av)
 {
 	int n;
-	char *s = "hello there";
+	char *s = NULL;
 
-	n = create_file(av[1], s);
+	n = append_text_to_file(av[1], s);
 	printf("\nread: %d\n", n);
 	return 0;
 }
